@@ -11,6 +11,7 @@ import story from './assets/our_story.png'
 import Tile from "./components/Tile";
 
 function App() {
+
     return (<>
             <h1>Handbags & Purses</h1>
             <nav>
@@ -63,8 +64,7 @@ function App() {
             <footer>
                 <Tile
                     head="The Brand"
-                    text1 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dignissimos dolorem minima omnis pariatur placeat quidem, repellendus vel voluptatem!"
-                    text2="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dignissimos dolorem minima omnis pariatur placeat quidem, repellendus vel voluptatem!"
+                    text={["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis.","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis."]}
                 />
                 <Tile
                     img = {brand} title="brand-pic"
@@ -74,8 +74,8 @@ function App() {
                 />
                 <Tile
                     head="our story"
-                    text1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dignissimos dolorem minima omnis pariatur placeat quidem, repellendus vel voluptatem!"
-                    text2="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dignissimos dolorem minima omnis pariatur placeat quidem, repellendus vel voluptatem!"
+                    text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis."
+
                 />
             </footer>
 
