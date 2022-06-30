@@ -64,7 +64,15 @@ function App() {
             <footer>
                 <Tile
                     head="The Brand"
-                    text={["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis.","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis."]}
+                    text={[
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
+                        "Aliquam assumenda expedita hic molestiae nisi nostrum numquam " +
+                        "optio pariatur perferendis reiciendis.",
+
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam " +
+                        "assumenda expedita hic molestiae nisi nostrum numquam optio " +
+                        "pariatur perferendis reiciendis."
+                    ]}
                 />
                 <Tile
                     img = {brand} title="brand-pic"
@@ -74,7 +82,11 @@ function App() {
                 />
                 <Tile
                     head="our story"
-                    text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae nisi nostrum numquam optio pariatur perferendis reiciendis."
+                    text="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquam assumenda expedita hic molestiae nisi nostrum numquam
+                    optio pariatur perferendis reiciendis. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Aliquam assumenda expedita hic molestiae
+                    nisi nostrum numquam optio pariatur perferendis reiciendis."
 
                 />
             </footer>
